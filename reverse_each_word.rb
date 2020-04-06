@@ -1,6 +1,6 @@
 #new method created that takes a sentance as a parameter
 def reverse_each_word(sentence) 
-  #sentace is split into individual words
+  #sentance is split into individual words and placed in array
   sentence = sentence.split(" ")
   #returns reversed words
    sentence.collect  {|x| puts x.reverse!} 
